@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 .flex {
     display: block;
     justify-content: space-between;
