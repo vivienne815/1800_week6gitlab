@@ -44,7 +44,7 @@ function updateMovieHistory(movie) {
     `;
     movieHistory.innerHTML = myTable;
 }
-
+// loop
 function keyExists(value, obj) {
     obj = Object.keys(obj); 
     for (var i = 0; i < obj.length; i++) {
