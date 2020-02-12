@@ -15,3 +15,15 @@ anonymous function.
 Within comments, explain exactly what map is doing. Finally, why is the
 "transformation function" we discussed in class sometimes referred to 
 as a callback function. 
+
+A3: 
+A map could also be used in printing options from a dictionary, to assit input decision from the user.
+
+<!-- create object -->
+var array1 = {'a': 1, 'b': 2, 'c':3}
+<!-- map return value pair -->
+obj.keys(array1).map(function(key, value) {
+    console.log(key, value)
+}
+
+Transformation function is called callback function as they can be passed into another function and be called up later in a right order
